@@ -32,5 +32,5 @@ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 Novgorod State University, Economics department, specialist degree in Marketing (2009—2014)
 ********* 
 ## Languages
-* English Pre-Intermediate level with sertificate from Chicaga school
-* English Intermediate level in process with personal tutor
+* English Pre-Intermediate (A2) level with sertificate from Chicaga school
+* English Intermediate (B1) level in process with personal tutor
