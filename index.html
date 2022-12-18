@@ -1,45 +1,89 @@
  <!DOCTYPE html>
- <html>
+ <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Arsenteva CV-HTML</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/icon.ico">
     </head>
     <body>
-        <header>
-            <h1>CV</h1>
-        </header>
-        <section>
-            <h3>Contact</h3>
-            <p>
-                <ul>
-                    <li>Location: Saint Petersburg, Russia</li>
-                    <li>Phone: 8 921 409 83 29</li>
-                    <li>E-mail: ksuletters@yandex.ru</li>
-                    <li>GitHub: ustinix</li>
-                    <li>Discord: Kseniia Arsenteva(@ustinix)</li>
-                </ul>
-            </p>
-        </section>
-        <section>
-            <h3>About Me</h3>
-            <p></p>
-        </section>
-        <section>
-            <h3>Skills</h3>
-            <p></p>
-        </section>
-        <section>
-            <h3>Experience</h3>
-            <p></p>
-        </section>
-        <section>
-            <h3>Education</h3>
-            <p></p>
-        </section>
-        <section>
-            <h3>Languages</h3>
-            <p></p>
-        </section>
+        <header class="header">
+            <div class="container aquamarine">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#Contact" class="link">Contact</a></li>
+                        <li class="nav-item"><a href="#About Me" class="link">About Me</a></li>
+                        <li class="nav-item"><a href="#Skills" class="link">Skills</a></li>
+                        <li class="nav-item"><a href="#Experience" class="link">Experience</a></li>
+                        <li class="nav-item"><a href="#Education" class="link">Education</a></li>
+                        <li class="nav-item"><a href="#Languages" class="link">Languages</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>        
+        <main class="main">
+
+            <div class="container logoinfo">
+                <div class="antiquewhite logo">
+                    <img src="./assets/ava.jpg" alt="my photo">
+                </div>
+                <div class="antiquewhite info">
+                    <h1>Arsenteva Kseniia</h1> 
+                    <h2>Front-End developer</h2>
+                    <section class="section">
+                        <h3>Contact</h3>
+                        <ul class="contact">
+                            <li>Location: Saint Petersburg, Russia</li>
+                            <li>Phone: 8 921 409 83 29</li>
+                            <li>E-mail: ksuletters@yandex.ru</li>
+                            <li>GitHub: ustinix</li>
+                            <li>Discord: Kseniia Arsenteva(@ustinix)</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container me">
+                <section class="section">
+                    <h3>About Me</h3>
+                    <p>I am a sales manager and in my job I do not see further ways of development, so I think it is a good time to learn something new. In my work I liked most of all to be useful to customers, which is why in IT I chose the profession of Frontend-developer, because it is a programmer who is closest to the user, who is responsible for the convenience of the site and its visual perception. He can make the navigation understandable, the site’s response is instant, and the animation is “live”.</p>
+                </section>
+                <section class="section">
+                    <h3>Skills</h3>
+                    <ul class="Skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h3>Experience</h3>
+                    <p>First progect: <a href="https://github.com/ustinix/rsschool-cv">СV1</a></p>
+                </section>
+                <section class="section">
+                    <h3>Education</h3>
+                    <p>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress) Novgorod State University, Economics department, specialist degree in Marketing (2009—2014)</p>
+                </section>
+                <section class="section">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English Pre-Intermediate (A2) level with sertificate from Chicaga school</li>
+                        <li>English Intermediate (B1) level in process with personal tutor</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container aquamarine year">
+                <a href="https://github.com/ustinix" target="_blank">
+                    <img src="./assets/GitHub-Logo.png" alt="Githab" width="70" height="40" border="0">
+                </a>
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="./assets/rs_school_js.svg" alt="RS-school course" width="70" height="40" border="0">
+                </a>
+                <p>2022</p>
+            </div>
+        </footer>
     </body>
  </html>
