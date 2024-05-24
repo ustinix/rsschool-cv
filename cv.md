@@ -1,7 +1,7 @@
 # Kseniia Arsenteva
 ![photo](./ava.jpg "Моё фото")
 
-======= 
+********* 
 ## Contact
     
 * Location: Saint Petersburg, Russia
@@ -22,8 +22,7 @@ I am a sales manager and in my job I do not see further ways of development, so 
 * JavaScript
 * Git/GitHub
 
-============
-
+********* 
 ## Code example
 
 Task from codewars: There was a test in your class and you passed it. Congratulations!
@@ -58,7 +57,7 @@ function betterThanAverage(classPoints, yourPoints) {
 * CV.md: [СV1]( https://ustinix.github.io/rsschool-cv/cv "Мое резюме")
 * Landing practise: [Landing practise]( ustinix.github.io/landing_practise/ "Landing practise") 
 
-==========
+********* 
 ## Education
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 * Udemy, Frontend разработчик на НТМL, CSS и JavaScript (Исмаил Усеинов)
@@ -66,7 +65,7 @@ function betterThanAverage(classPoints, yourPoints) {
 * Code-basics.com (CSS course)
 * Code-basics.com (JavaScript course)
 
-=========
+********* 
 ## Languages
 * English Pre-Intermediate (A2) level with sertificate from Chicaga school
 * English Intermediate (B1) level in process with personal tutor
