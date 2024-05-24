@@ -1,81 +1,82 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  .aquamarine {
-    background-color:darkgray;
-  }
+.navigation {
+  background-color:darkgray;
+}
 
-  .antiquewhite {
-    background-color:gainsboro;
-  }
+.contacts {
+  background-color:gainsboro;
+}
 
-  body {
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+body {
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-  .intro {
-    position: relative;
-    right: 300;
-  }
+.intro {
+  position: relative;
+  right: 300;
+}
 
-  .nav {
-    padding: 25px 0;
-  }
+.nav {
+  padding: 25px 0;
+}
 
-  .nav-list {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-   .link {
-    text-decoration: none;
-    color: #000000;
-  }
+ .link {
+  text-decoration: none;
+  color: #000000;
+}
 
-  .logoinfo {
-    display: flex;
-  }
+.logoinfo {
+  display: flex;
+}
 
-  .logo {
-    width: 50%;
-    padding: 25px;
-  }
+.logo {
+  width: 50%;
+  padding: 25px;
+}
 
-  .info {
-    width: 50%;
-    padding: 25px;
-  }
+.info {
+  width: 50%;
+  padding: 25px;
+}
 
-  .year {
-    display: flex;
-    justify-content: space-around;
-  }
+.year {
+  display: flex;
+  justify-content: space-around;
+  background-color:darkgray;
+}
 
-  h1 {
-    font-size:30px;
-  }
+h1 {
+  font-size:30px;
+}
 
-  .me {
-    font-size:20px;
-    line-height: 50px;
-    background-color:rgb(245, 245, 245);
-    padding: 25px;
-  }
+.me {
+  font-size:20px;
+  line-height: 50px;
+  background-color:rgb(245, 245, 245);
+  padding: 25px;
+}
