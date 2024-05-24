@@ -55,7 +55,7 @@ function betterThanAverage(classPoints, yourPoints) {
 ## Experience
 
 * CV.md: [СV1]( https://ustinix.github.io/rsschool-cv/cv "Мое резюме")
-* Landing practise: [Landing practise]( ustinix.github.io/landing_practise/ "Landing practise") 
+* Landing practise: [Landing practise]( https://ustinix.github.io/landing_practise/ "Landing practise") 
 
 ********* 
 ## Education
