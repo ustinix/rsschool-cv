@@ -53,8 +53,8 @@ function betterThanAverage(classPoints, yourPoints) {
 
 ## Experience
 
-First progect:
-[СV1](https://github.com/ustinix/rsschool-cv "Мое резюме")
+* CV.md: [СV1]( "Мое резюме")
+* Landing practise: [Landing practise]( ustinix.github.io/landing_practise/ "Landing practise") 
 ********* 
 ## Education
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
