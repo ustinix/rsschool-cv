@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/icon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="api-description">
+                <div class="flickr">
+                    <div class="api-logo">
+                        <span class="api-icon"></span>
+                    </div>
+                    <a href="https://www.flickr.com/" class="api-name">Flickr API</a>
+                </div>
+                <div class="search">
+                    <label for="name">Search:</label>
+                    <input id="searchInput"
+                        type="search"
+                        id="serch-word"
+                        placeholder="Cat"
+                        autocomplete="off"
+                    >
+                    <button class="searchBtn" id="searchBtn">
+                        <span class="search-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="gallery-container" id="photoContainer">
+                <!-- <img class="gallery-img" src="./assets/1.jfif" alt="">
+                <img class="gallery-img" src="./assets/2.webp" alt="">
+                <img class="gallery-img" src="./assets/3.jpg" alt="">
+                <img class="gallery-img" src="./assets/4.webp" alt="">
+                <img class="gallery-img" src="./assets/5.jpg" alt="">
+                <img class="gallery-img" src="./assets/6.jpg" alt="">
+                <img class="gallery-img" src="./assets/7.jpg" alt="">
+                <img class="gallery-img" src="./assets/8.jpg" alt="">
+                <img class="gallery-img" src="./assets/9.jpg" alt="">
+                <img class="gallery-img" src="./assets/10.jpg" alt=""> -->
+            </div>
+            <div class="buttons-group">
+                <button class="buttons-group__item left_arrows button-disabled" disabled="disabled">&lt; &lt;</button>
+                <button class="buttons-group__item left_arrow button-disabled" disabled="disabled">&lt;</button>
+                <button class="buttons-group__item center" disabled="disabled">1</button>
+                <button class="buttons-group__item right_arrow button-active">&gt;</button>
+                <button class="buttons-group__item right_arrows button-active">&gt; &gt;</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footerLinks">
+                <p>2024</p>
+                <a href="https://github.com/ustinix" target="_blank">
+                    <img src="./assets/GitHub-Logo.png" alt="Githab" width="70" height="40">
+                </a>
+                <a href="https://rs.school/js-stage0/" target="_blank">
+                    <img src="./assets/rs_school_js.svg" alt="RS-school course" width="70" height="40">
+                </a>
+              </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    
+<script src="./script.js"></script>
+</body>
+</html>
