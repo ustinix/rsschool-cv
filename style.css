@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(227, 223, 223);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: rgb(186, 185, 185);
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  padding: 5px 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item a {
+  color: rgba(180, 151, 26, 0.867);
+  text-decoration: none;
+}
+
+.left__side {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: rgba(28, 28, 28, 0.729);
+}
+
+.leftLine {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(180, 151, 26, 0.867);
+  border-color: rgba(180, 151, 26, 0.867);
+}
+
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-left: 90px;
+}
+
+.imgbox {
+padding-bottom: 30px;
+}
+
+.photo {
+  height: 457px;
+  width: 335px;
+}
+
+.skillstList {
+  padding-bottom: 30px;
+}
+
+.experience {
+  padding-bottom: 30px;
+}
+
+.experienceLinks {
+  color: rgba(180, 151, 26, 0.867);
+  text-decoration: none;
+}
+
+.footerLinks {
+  padding-top: 240px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.right__side {
+  position: relative;
+  background: rgb(230, 230, 228);
+  padding: 30px 0px;
+}
+
+.nameBox {
+  background-color: rgba(180, 151, 26, 0.867);
+  text-align: left;
+  margin-top: 20px;
+  padding: 30px 60px;
+  line-height: 35px;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: 150;
+}
+
+.firstName {
+  font-weight: bold;
+}
+
+.about, .code, .education, .languages {
+padding-left: 60px;
+padding-top: 30px;
+padding-right: 15px;
+line-height: 20px;
+}
+
+.rightLine {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(28, 28, 28, 0.729);
+  border-color: rgba(28, 28, 28, 0.729);
+}
+
+p {
+  text-align:justify;
+  text-indent: 25px;
+}
