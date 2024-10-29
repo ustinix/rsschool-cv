@@ -1,5 +1,5 @@
 # Kseniia Arsenteva
-![photo](./ava.jpg "Моё фото")
+![photo](./assets/ava1.jpg "Моё фото")
 ********* 
 ## Contact
     
